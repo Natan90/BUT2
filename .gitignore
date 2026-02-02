@@ -1,10 +1,12 @@
 /*
 !/.gitignore
 !/.git/
-!/prog_sys/
-!/prog_sys/**
-!/archi_reseau/
-!/archi_reseau/**
+
+# Autoriser le dossier S3 et les sous-dossiers spécifiés
+!/S3/
+!/S3/**
+!/S3/prog_sys/
+!/S3/prog_sys/**
 !/S3/archi_reseau/
 !/S3/archi_reseau/**
 !/S4/archi_logicielle/
