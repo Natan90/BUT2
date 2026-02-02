@@ -1,17 +1,33 @@
-/*
-!/.gitignore
-!/.git/
+anglais/
+C++/
+comm/
+cryptographie/
+dev_efficace/
+droit/
+java_obj/
+management_SI/
+maths/
+nodejs/
+qualite_dev/
+td_node/
+unity/
+vuejs/
 
-# Autoriser le dossier S3 et les sous-dossiers spécifiés
-!/S3/
-!/S3/**
-!/S3/prog_sys/
-!/S3/prog_sys/**
-!/S3/archi_reseau/
-!/S3/archi_reseau/**
-!/S4/archi_logicielle/
-!/S4/archi_logicielle/**
 
+a.out
+**/a.out
+*.out
+*.exe
+*.elf
+core
+core.*
+
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.zip
 
 
 
