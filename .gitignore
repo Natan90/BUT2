@@ -1,0 +1,138 @@
+/*
+!/.gitignore
+!/.git/
+!/prog_sys/
+!/prog_sys/**
+!/archi_reseau/
+!/archi_reseau/**
+!/S3/archi_reseau/
+!/S3/archi_reseau/**
+!/S4/archi_logicielle/
+!/S4/archi_logicielle/**
+
+
+
+
+
+
+
+
+
+# Generic OS
+.DS_Store
+.Trashes
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.swp
+*~
+.history/
+
+# Environment files / secrets
+.env
+.env.*.local
+.env.local
+.env.production
+.env.*.backup
+secrets/*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs and runtime files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Node
+node_modules/
+dist/
+build/
+out/
+.nyc_output/
+coverage/
+.cache/
+.next/
+.nuxt/
+.vercel/
+public/build/
+parcel-cache/
+jspm_packages/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+
+# Java / JVM
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+build/
+out/
+*.iml
+
+# C / C++ / Obj-C
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+/build/
+
+# Rust
+/target/
+**/*.rs.bk
+
+# Go
+/bin/
+pkg/
+*.exe
+*.test
+
+# Ruby
+/.bundle
+/log/
+tmp/
+*.gem
+vendor/bundle
+
+# PHP
+/vendor/
+composer.lock
+
+# IDE/Tool caches
+/.cache/
+/.vagrant/
+*.tmproj
+
+# Package managers lock files you may want to ignore (optional)
+# package-lock.json
+# yarn.lock
